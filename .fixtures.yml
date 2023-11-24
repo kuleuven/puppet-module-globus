@@ -10,7 +10,6 @@ fixtures:
       repo: puppetlabs/inifile
     firewall:
       repo: puppetlabs/firewall
-      ref: '6.0.0'
     yumrepo_core:
       repo: puppetlabs/yumrepo_core
     python:
