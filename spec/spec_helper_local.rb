@@ -5,11 +5,6 @@ Dir["#{dir}/shared_examples/**/*.rb"].sort.each { |f| require f }
 
 def platforms
   {
-    'RedHat-7' => {
-      python_version: '3',
-      pip_provider: 'pip3',
-      venv_python_version: '3.6'
-    },
     'RedHat-8' => {
       python_version: '3',
       pip_provider: 'pip3',
