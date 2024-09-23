@@ -9,7 +9,7 @@ HOSTS:
     docker_cmd:
       - '/usr/sbin/init'
     docker_image_commands:
-      - 'dnf install -y dnf-utils'
+      - 'dnf install -y dnf-utils epel-release'
       - 'dnf config-manager --set-enabled crb'
       - 'dnf install -y wget which cronie iproute initscripts langpacks-en glibc-all-langpacks glibc-langpack-en cpio'
     docker_env:
