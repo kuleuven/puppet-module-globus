@@ -50,6 +50,7 @@ jobs:
         set:
           - "el7"
           - "el8"
+          - "el9"
           - "debian-11"
           - "ubuntu-2004"
           - "ubuntu-2204"
